@@ -9,11 +9,26 @@ class MyApp extends StatelessWidget {
         title: "SALVE SALVE RAPAZIADA",
         home: Scaffold(
           appBar: AppBar(
-            title: Text('PRIMEIRO PROJETO RAPAZIADA'),
+            title: Text('Disk Frete'),
+            backgroundColor: Colors.black,
           ),
-          body: Center(
-            child: Text('INFERNO'),
-          ),
+          //CORPO
+          body: ListView(
+            children: <Widget>[
+              ListTile(
+                leading: Icon(Icons.phone_android),
+                title:Text("Contato")
+              ),
+              ListTile(
+                leading: Icon(Icons.water_damage),
+                title: Text("Água"),
+              ),
+              ListTile(
+                leading: Icon(Icons.map),
+                title: Text("Map"),
+              )
+              ]
+            )
         ));
   }
 }
