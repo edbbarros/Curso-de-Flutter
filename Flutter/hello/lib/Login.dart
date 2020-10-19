@@ -9,12 +9,19 @@ class Login extends StatelessWidget{
          child: TextFormField(
            decoration: new InputDecoration(hinText: 'Email'), 
            keyboardType: TextInputType.emailAddress,
+
+           validar:() {},
+           onSaved:() {} 
+
+          ),
+
+          TextFormField(
+           decoration: new InputDecoration(hinText: 'Email'), 
+           keyboardType: TextInputType.emailAddress,
            
            validar:() {},
            onSaved:() {} 
-           
-            }
-          )
+           } 
         ) 
       ]   
     );
