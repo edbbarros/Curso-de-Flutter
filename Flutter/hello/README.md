@@ -1,6 +1,6 @@
 # hello
 
-A new Flutter project.
+Aplicativo que vem sendo criado no curso de flutter
 
 ## Getting Started
 
