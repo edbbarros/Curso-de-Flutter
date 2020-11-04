@@ -25,7 +25,7 @@ class PaginaInicial extends StatelessWidget {
                   child: Text(
                     'Login',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontSize: 25,
                       fontFamily: 'Arial',
                     ),
@@ -46,7 +46,7 @@ class PaginaInicial extends StatelessWidget {
                   child: Text(
                     'Cadastrar',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontSize: 32,
                       fontFamily: 'Arial',
                     ),
