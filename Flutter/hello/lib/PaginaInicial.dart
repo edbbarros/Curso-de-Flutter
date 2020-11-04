@@ -6,7 +6,10 @@ class PaginaInicial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+             backgroundColor: Colors.white,
+
       body: Column(
+       
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -19,18 +22,18 @@ class PaginaInicial extends StatelessWidget {
             Divider(),
             Divider(),
             SizedBox(
-              width: 200,
+              width: 250,
               height: 50,
               child: new RaisedButton(
                   child: Text(
                     'Login',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 25,
+                      fontSize: 20,
                       fontFamily: 'Arial',
                     ),
                   ),
-                  color: Colors.blue,
+                  color: Colors.blueGrey,
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -40,14 +43,14 @@ class PaginaInicial extends StatelessWidget {
             ),
             Divider(),
             SizedBox(
-              width: 200,
+              width: 250,
               height: 50,
               child: new RaisedButton(
                   child: Text(
                     'Cadastrar',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 32,
+                      fontSize: 20,
                       fontFamily: 'Arial',
                     ),
                   ),

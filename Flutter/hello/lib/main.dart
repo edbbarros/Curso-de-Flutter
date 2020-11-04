@@ -8,9 +8,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'MercadinhoJP',
       theme: new ThemeData(
-        brightness: Brightness.dark,
+
+       backgroundColor: Colors.white,
         primarySwatch: Colors.blue,
-        primaryColor: const Color(0xFF212121),
         accentColor: const Color(0xFF64ffda),
         canvasColor: const Color(0xFF303030),
       ),
