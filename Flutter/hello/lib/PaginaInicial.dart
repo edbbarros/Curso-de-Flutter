@@ -6,18 +6,16 @@ class PaginaInicial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-             backgroundColor: Colors.white,
-
+      backgroundColor: Colors.redAccent,
       body: Column(
-       
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
+            Image.asset('images/logo.png'),
             SizedBox(
               width: 100,
               height: 100,
-              //  child: new Image.asset('imagem/logo.png'),
             ),
             Divider(),
             Divider(),
@@ -28,17 +26,12 @@ class PaginaInicial extends StatelessWidget {
                   child: Text(
                     'Login',
                     style: TextStyle(
-<<<<<<< HEAD
-                      color: Colors.white,
-                      fontSize: 20,
-=======
                       color: Colors.black,
-                      fontSize: 25,
->>>>>>> 0541b17c4a30102a7147779c7befda1d105f794e
+                      fontSize: 20,
                       fontFamily: 'Arial',
                     ),
                   ),
-                  color: Colors.blueGrey,
+                  color: Colors.yellowAccent,
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -54,17 +47,12 @@ class PaginaInicial extends StatelessWidget {
                   child: Text(
                     'Cadastrar',
                     style: TextStyle(
-<<<<<<< HEAD
-                      color: Colors.white,
-                      fontSize: 20,
-=======
                       color: Colors.black,
-                      fontSize: 32,
->>>>>>> 0541b17c4a30102a7147779c7befda1d105f794e
+                      fontSize: 20,
                       fontFamily: 'Arial',
                     ),
                   ),
-                  color: Colors.greenAccent,
+                  color: Colors.yellowAccent,
                   onPressed: () {
                     Navigator.push(
                       context,
