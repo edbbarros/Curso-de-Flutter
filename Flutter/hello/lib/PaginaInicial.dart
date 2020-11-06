@@ -12,10 +12,18 @@ class PaginaInicial extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Image.asset('images/logo.png'),
+            Text(
+              'Mercadinho JP',
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold),
+            ),
+            Divider(),
             SizedBox(
               width: 100,
               height: 100,
+              child: Image.asset('images/logo.png'),
             ),
             Divider(),
             Divider(),
